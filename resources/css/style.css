@@ -131,3 +131,18 @@ body {
 .appointments p {
   padding-top: 1rem;
 }
+/* Footer */
+footer {
+  display: inline-flex;
+  background-color: azure;
+  width: 960px;
+  height: 200px;
+  margin: 1rem 2rem;
+  display: inline-flex;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
+}
+/* Media Queries */
