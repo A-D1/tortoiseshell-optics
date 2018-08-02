@@ -52,7 +52,7 @@ body {
   height: 6rem;
 }
 /* Slogan */
-p {
+.slogan p {
   position: relative;
   bottom: 15rem;
   left: 40rem;
@@ -65,4 +65,69 @@ p {
   width: 20rem;
   display: flex;
   align-items: center;
+}
+/* Images Section */
+.images_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image_container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+  width: 39rem;
+}
+.image_container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  text-align: center;
+}
+.image_container div img {
+  width: 3.5rem;
+  margin: 1rem;
+}
+#fittings img {
+    padding-bottom: 2.4rem;
+}
+#delivery img {
+  padding-bottom: 2.1rem;
+}
+/* Information Section */
+.information_section {
+  display: flex;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.information_container {
+  display: inline-flex;
+  justify-content: center;
+}
+.philosophy,
+.appointments {
+  width: 30%;
+  margin: 0 2.5%;
+}
+.philosophy span,
+.appointments span {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  width: 500rem;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 5rem;
+}
+.philosophy p,
+.appointments p {
+  padding-top: 1rem;
 }
