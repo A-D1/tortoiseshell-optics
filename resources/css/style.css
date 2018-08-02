@@ -132,8 +132,11 @@ body {
   padding-top: 1rem;
 }
 /* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+}
 footer {
-  display: inline-flex;
   background-color: azure;
   width: 960px;
   height: 200px;
