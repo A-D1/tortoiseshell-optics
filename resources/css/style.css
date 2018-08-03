@@ -149,3 +149,22 @@ footer img {
   margin: 4rem 1rem 4rem 4rem;
 }
 /* Media Queries */
+@media only screen and (max-width: 1024px) {
+  #header {
+    margin: 0;
+    width: 100%;
+  }
+  .top_section {
+    height: 22rem;
+  }
+  .slogan p {
+    font-size: 1.33rem;
+    padding: 0.75rem 2rem;
+    padding-right: 0;
+    width: 15rem;
+  }
+  .slogan {
+    position: relative;
+    right: 20rem;
+  }
+}
